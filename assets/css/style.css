@@ -63,6 +63,7 @@ body {
 .name {
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: .2rem;
 }
 
 .work {
@@ -112,6 +113,9 @@ body {
     .carousel {
         width: 80%;
     }
+    .info__content {
+        line-height: 30px;
+    }
 }
 
 @media(max-width:425px) {
@@ -119,6 +123,7 @@ body {
     .carousel {
         width: 70%;
     }
+    
 }
 
 @media(max-width:375px) {
